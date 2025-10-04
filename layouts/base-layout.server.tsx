@@ -1,3 +1,4 @@
+import Footer from "@/components/footer/footer.server";
 import Navbar from "@/components/navbar/navbar.server";
 import React, { PropsWithChildren } from "react";
 
@@ -8,6 +9,7 @@ const BaseLayout = ({ children }: BaseLayoutProps) => {
     <div className="w-dvw h-dvh">
       <Navbar />
       {children}
+      <Footer />
     </div>
   );
 };
