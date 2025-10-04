@@ -8,7 +8,7 @@ type ThemeProviderProps = PropsWithChildren;
 
 const ThemeProvider = ({ children }: ThemeProviderProps) => {
   return (
-    <NextThemeProvider defaultTheme="dark">
+    <NextThemeProvider attribute="class" defaultTheme="dark">
       <Toaster richColors={true} position="bottom-right" />
       {children}
     </NextThemeProvider>
