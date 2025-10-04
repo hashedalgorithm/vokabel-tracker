@@ -17,10 +17,12 @@ const RootScreen = () => {
           refresh your memory, and never lose sight of your vocabulary progress.
         </p>
 
-        <Button className="mt-8">
-          Get Started
-          <ArrowRight />
-        </Button>
+        <Link href={"/auth"}>
+          <Button className="mt-8">
+            Get Started
+            <ArrowRight />
+          </Button>
+        </Link>
       </section>
 
       <section className="pb-8">
