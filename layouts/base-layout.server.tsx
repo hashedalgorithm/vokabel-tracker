@@ -6,9 +6,11 @@ type BaseLayoutProps = PropsWithChildren;
 
 const BaseLayout = ({ children }: BaseLayoutProps) => {
   return (
-    <div className="w-dvw h-dvh">
-      <Navbar />
-      {children}
+    <div className="w-dvw h-dvh flex flex-col justify-between">
+      <div className="">
+        <Navbar />
+        {children}
+      </div>
       <Footer />
     </div>
   );

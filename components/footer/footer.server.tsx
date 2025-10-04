@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="flex gap-4 mt-auto md:flex-nowrap justify-between px-10 py-8">
+    <footer className="flex gap-4 md:flex-nowrap justify-between px-10 py-8">
       <div className="flex flex-col gap-4">
         <p>
           © {new Date().getFullYear()} · hashedalgorithm · All rights reserved
